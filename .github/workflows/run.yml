@@ -4,8 +4,8 @@ on:
   push:
     branches: 
       - master
-  #schedule:
-    #- cron: '*/24000 * * * *'
+  schedule:
+    - cron: '*/24000 * * * *'
 
 env:
   UPDATE_IPV4: true
